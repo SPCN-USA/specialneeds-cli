@@ -1,0 +1,35 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.specialneedsusa/care-finder",
+  "title": "Special Needs Care Network",
+  "description": "Free matching with ABA, special needs school, and speech providers that take your insurance.",
+  "version": "1.1.0",
+  "websiteUrl": "https://specialneedsusa.com/tools/mcp",
+  "repository": {
+    "url": "https://github.com/SPCN-USA/specialneeds-cli",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://specialneedsusa.com/api/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "specialneeds-cli",
+      "version": "1.1.0",
+      "runtimeHint": "npx",
+      "packageArguments": [
+        {
+          "type": "positional",
+          "value": "mcp"
+        }
+      ],
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "specialneeds-cli",
+  "version": "1.1.0",
+  "mcpName": "com.specialneedsusa/care-finder",
+  "description": "Find special needs care for free from your terminal or AI assistant: ABA therapy, special needs schools, speech therapy, and testing. Includes IEP goals and ABA costs by state.",
+  "keywords": [
+    "special-needs",
+    "find-care",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "cli",
+    "iep",
+    "iep-goals",
+    "special-education",
+    "aba-therapy",
+    "autism",
+    "education"
+  ],
+  "homepage": "https://specialneedsusa.com/tools/mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SPCN-USA/specialneeds-cli.git"
+  },
+  "bugs": {
+    "email": "admin@specialneedsusa.com"
+  },
+  "license": "MIT",
+  "author": "Special Needs Care Network (https://specialneedsusa.com)",
+  "type": "module",
+  "bin": {
+    "specialneeds-cli": "bin/specialneeds.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.3"
+  }
+}
