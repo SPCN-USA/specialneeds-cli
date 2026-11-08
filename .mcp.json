@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "special-needs-care": {
+      "url": "https://specialneedsusa.com/api/mcp"
+    }
+  }
+}
