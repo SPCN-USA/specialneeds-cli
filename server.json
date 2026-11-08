@@ -3,7 +3,7 @@
   "name": "com.specialneedsusa/care-finder",
   "title": "Special Needs Care Network",
   "description": "Free matching with ABA, special needs school, and speech providers that take your insurance.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "websiteUrl": "https://specialneedsusa.com/tools/mcp",
   "repository": {
     "url": "https://github.com/SPCN-USA/specialneeds-cli",
@@ -19,7 +19,7 @@
     {
       "registryType": "npm",
       "identifier": "specialneeds-cli",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "runtimeHint": "npx",
       "packageArguments": [
         {

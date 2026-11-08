@@ -2,7 +2,7 @@
 import { createInterface } from 'node:readline';
 import { parseArgs } from 'node:util';
 
-const VERSION = '1.1.0';
+const VERSION = '1.1.1';
 const ENDPOINT = process.env.SPECIALNEEDS_MCP_URL || 'https://specialneedsusa.com/api/mcp';
 const USER_AGENT = `specialneeds-cli/${VERSION}`;
 

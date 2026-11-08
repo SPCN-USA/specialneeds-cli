@@ -1,6 +1,6 @@
 {
   "name": "specialneeds-cli",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "mcpName": "com.specialneedsusa/care-finder",
   "description": "Find special needs care for free from your terminal or AI assistant: ABA therapy, special needs schools, speech therapy, and testing. Includes IEP goals and ABA costs by state.",
   "keywords": [
