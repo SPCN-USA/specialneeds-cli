@@ -1,0 +1,11 @@
+{
+  "name": "special-needs-care",
+  "version": "1.1.1",
+  "description": "Free matching with ABA, special needs school, and speech providers that take your insurance.",
+  "mcpServers": {
+    "special-needs-care": {
+      "url": "https://specialneedsusa.com/api/mcp",
+      "type": "http"
+    }
+  }
+}
